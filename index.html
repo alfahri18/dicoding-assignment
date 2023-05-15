@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Profile Website</title>
+	<style>
+		body {
+			margin: 0;
+			background-color: #00B4D8;
+			font-family: Helvetica;
+		}
+
+		.head {
+			background-color: #1C6DD0;
+			text-align: center;
+		}
+
+		nav {
+			padding-top: 10px;
+			padding-bottom: 10px;
+			background-color: #344CB7;
+		}
+
+		nav a {
+			text-decoration: none;
+		}
+
+		main {
+			padding: 10px;
+			overflow: auto;
+		}
+
+		.content {
+			background-color: #548CFF;
+			float: left;
+			width: 75%;
+			padding-left: 10px;
+		}
+
+		.content blockquote {
+			text-align: justify;
+		}
+
+		aside {
+			background-color: #548CFF;
+			float: right;
+			width: 20%;
+			padding-left: 25px;
+		}
+
+		#foto_biodata {
+			width: 250px;
+			height: 250px;
+		}
+
+		footer {
+			background-color: #1C6DD0;
+			position: fixed;
+			bottom: 20px;
+			width: 100%;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<header class="head">
+		<h1>Profile</h1>
+		<nav>
+			<a href="index.html">Home</a>
+		</nav>
+	</header>
+	<main>
+		<p>Waktu saat ini: <?php echo date('Y-m-d H:i:s'); ?></p>
+		<div class="content">
+			<article>
+				<h2>Hobby</h2>
+				<blockquote>A hobby is an activity that makes a person happy and entertained. I have been playing badminton as a hobby since I was a child and it is still one of my favorite pastimes. Playing badminton offers many health benefits and can also help relieve stress after daily activities.
+
+					One of the benefits of playing badminton is improved heart and lung health. Additionally, this exercise increases endurance and helps strengthen muscles throughout the body. Playing badminton also helps improve flexibility, balance and coordination of body movements.
+				</blockquote>
+			</article>
+			<article>
+				<h2>Hobby</h2>
+				<blockquote>A hobby is an activity that makes a person happy and entertained. I have been playing badminton as a hobby since I was a child and it is still one of my favorite pastimes. Playing badminton offers many health benefits and can also help relieve stress after daily activities.
+
+					One of the benefits of playing badminton is improved heart and lung health. Additionally, this exercise increases endurance and helps strengthen muscles throughout the body. Playing badminton also helps improve flexibility, balance and coordination of body movements.</blockquote>
+			</article>
+		</div>
+		<aside>
+			<article>
+				<h2>Biodata</h2>
+				<img src="https://storage.googleapis.com/fahri-bucket/fahri.jpg" id="foto_biodata">
+				<p><b>Nama</b>: Muhammad Al Fahri</p>
+				<p><b>TTL</b>: Muara Pasir, Kabupaten Paser, 18 Maret 2001</p>
+				<p><b>Pekerjaan</b>: Mahasiswa</p>
+				<p><b>Universitas</b>: Universitas Mulawarman</p>
+					<p><b>Angkatan</b>: 2019</p>
+					<p><b>Hobi</b>: Olahraga</p>
+					</article>
+					</aside>
+					</main>
+					<footer>
+					<p><b>@Muhammad Al Fahri</b></p>
+					</footer>
+					
+					</body>
+					</html>
